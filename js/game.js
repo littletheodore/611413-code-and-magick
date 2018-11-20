@@ -1,5 +1,5 @@
 'use strict';
-
+debugger;
 window.GameConstants = {
   Fireball: {
     size: window.fireballSize || 24,

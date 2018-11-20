@@ -2,20 +2,20 @@ var fireballSize = 22;
 var getFireballSpeed = function (left) {
   return left ? 5 : 2;
 };
-
-var wizardSpeed = 3;
+debugger;
+var wizardSpeed = 7;
 var wizardWidth = 70;
-var getWizardHeight = function () {
+var getWizardHeight = function() {
   var wizardHeight = wizardWidth * 1.337;
   return wizardHeight;
 };
 
-var getWizardX = function (width) {
+var getWizardX = function(width) {
   var coordinateX = (width - wizardWidth) / 2;
   return coordinateX;
 };
 
-var getWizardY = function (height) {
+var getWizardY = function(height) {
   var coordinateY = height / 2;
   return coordinateY;
 };
